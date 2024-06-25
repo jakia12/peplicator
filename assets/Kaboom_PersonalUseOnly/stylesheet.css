@@ -1,0 +1,14 @@
+﻿/* @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {
+  font-family: "Kaboom_PersonalUseOnly";
+  src: url("Kaboom_PersonalUseOnly.eot?") format("eot"),
+    url("Kaboom_PersonalUseOnly.woff") format("woff"),
+    url("Kaboom_PersonalUseOnly.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kaeden";
+  src: url(./Kaeden\ Bold.otf);
+}

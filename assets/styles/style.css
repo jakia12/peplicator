@@ -1,0 +1,239 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap");
+@font-face {
+  font-family: "eacologica round slab";
+  src: url(./eacologica-round-slab-ffp.ttf);
+}
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+  --font-semi: 600;
+  /*===== Colores =====*/
+  --first-color: rgba(0, 0, 64, 1);
+  /*===== Fuente y tipografia =====*/
+  --body-font: "Kaden";
+  --normal-font-size: 0.938rem;
+  --white: #fff;
+}
+
+/*===== BASE =====*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 0 0 0;
+  font-family: var(--body-font), cursive;
+  color: var(--second-color);
+  background: #049b43;
+  color: var(--white);
+  font-family: "eacologica round slab";
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*===== CLASS CSS ===== */
+a.button {
+  padding: 16px 32px;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  background: #498001;
+  box-shadow: 0px 4px 8px rgba(9, 50, 67, 0.16);
+  border-radius: 4px;
+}
+
+header {
+  width: 100%;
+  padding-block: 15px;
+  position: absolute;
+  top: 0;
+}
+header a.title {
+  font-family: "eacologica round slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+header ul li a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+header a.button {
+  padding: 16px 32px;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  background: #498001;
+  box-shadow: 0px 4px 8px rgba(9, 50, 67, 0.16);
+  border-radius: 4px;
+}
+
+#home {
+  width: 100%;
+  padding-block: 100px;
+  background-color: #049b43;
+  /* background: linear-gradient(to right, #944bfc, #48adbf, #14f194); */
+  /* background: url('../img/back.jpg') center center no-repeat; */
+}
+#home h1.title {
+  font-family: "eacologica round slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+  color: #ffffff;
+}
+@media (max-width: 700px) {
+  #home h1.title {
+    font-size: 52px;
+    line-height: 66px;
+  }
+}
+#home p.info {
+  font-family: "eacologica round slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 500px;
+}
+
+#about {
+  width: 100%;
+  padding-block: 80px;
+}
+#about img.logo {
+  max-width: 20rem;
+}
+#about h1.title {
+  font-family: "eacologica round slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  color: #ffffff;
+}
+#about p {
+  font-family: "eacologica round slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 500px;
+}
+#about .abso {
+  right: 0;
+  top: 0;
+}
+
+#tokenomics {
+  width: 100%;
+  padding-block: 50px;
+}
+#tokenomics h1.title {
+  font-family: "eacologica round slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  color: #ffffff;
+}
+@media (max-width: 700px) {
+  #tokenomics h1.title {
+    font-size: 48px;
+    line-height: 58px;
+  }
+}
+#tokenomics .cd {
+  width: 100%;
+}
+#tokenomics .cd div {
+  width: 392px;
+  height: 212px;
+  background: #ffffff;
+  border-radius: 32px;
+}
+@media (max-width: 800px) {
+  #tokenomics .cd div {
+    width: 100%;
+  }
+}
+#tokenomics .cd div h2.head {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 71px;
+  color: #4c8901;
+}
+@media (max-width: 700px) {
+  #tokenomics .cd div h2.head {
+    font-size: 48px;
+    line-height: 71px;
+  }
+}
+#tokenomics .cd div h1.head {
+  font-family: "eacologica round slab";
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  color: #4c8901;
+}
+@media (max-width: 700px) {
+  #tokenomics .cd div h1.head {
+    font-size: 52px;
+    line-height: 86px;
+  }
+}
+
+footer {
+  width: 100%;
+  padding-block: 50px;
+}
+footer a.logo {
+  font-family: "eacologica round slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+} /*# sourceMappingURL=style.css.map */
